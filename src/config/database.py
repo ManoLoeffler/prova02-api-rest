@@ -29,7 +29,6 @@ def create_db_and_tables():
 def get_engine():
     return engine
 
-
 # OBTEM UMA SESSAO DO BANCO
 @contextmanager
 def get_session():
